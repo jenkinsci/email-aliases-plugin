@@ -9,7 +9,7 @@
     <version>2.11</version>
     <relativePath/>
   </parent>
-  <artifactId>mail-aliases</artifactId>
+  <artifactId>email-aliases</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
