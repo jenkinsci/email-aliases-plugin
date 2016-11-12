@@ -34,14 +34,6 @@ public class MailAliasesUserProperty extends UserProperty {
         return ImmutableSet.copyOf(mailAliases);
     }
 
-    public static MailAliasesUserProperty get(User user) {
-        MailAliasesUserProperty property = user.getProperty(MailAliasesUserProperty.class);
-        if (property == null) {
-            property = new MailAliasesUserProperty(ImmutableList.<MailAlias>of());
-        }
-        return property;
-    }
-
     @Extension
     public static class DescriptorImpl extends UserPropertyDescriptor {
 
